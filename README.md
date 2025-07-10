@@ -1,4 +1,4 @@
-# Onur-ef-restoran
+# OnurSef-restoran
 HTML, CSS ve saf JavaScript ile geliştirilmiş responsive bir restoran web arayüzü. Sayfa parçaları dinamik olarak yüklenir, rezervasyon formu ve sahte API (DummyJSON) ile entegrasyon içerir. 
 
 OnurŞef Restoran Uygulaması - Kullanım Talimatları
