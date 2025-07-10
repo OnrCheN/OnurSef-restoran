@@ -1,0 +1,61 @@
+<div class="col-12">
+  <form class="card" onsubmit="rezervasyonKaydet(event)">
+    <div class="card-body">
+      <h3 class="card-title">Rezervasyon Oluşturma Formu</h3>
+      <div class="row row-cards">
+
+        <div class="col-sm-6 col-md-6">
+          <div class="mb-3">
+            <label class="form-label">Ad</label>
+            <input type="text" class="form-control" name="ad" placeholder="Adınız" required>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+          <div class="mb-3">
+            <label class="form-label">Soyad</label>
+            <input type="text" class="form-control" name="soyad" placeholder="Soyadınız" required>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+          <div class="mb-3">
+            <label class="form-label">E-posta</label>
+            <input type="email" class="form-control" name="email" placeholder="ornek@mail.com" required>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label class="form-label">Şube Seçimi</label>
+            <select class="form-select" name="sube" required>
+              <option disabled selected value="">Şube seçiniz</option>
+              <option value="istanbul">İstanbul</option>
+              <option value="izmir">İzmir</option>
+              <option value="gebze">Gebze</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="mb-3">
+            <label class="form-label">Tarih ve Saat</label>
+            <input type="datetime-local" class="form-control" name="tarihSaat" required>
+          </div>
+        </div>
+        
+        <div class="col-md-12">
+          <div class="mb-3">
+            <label class="form-label">Not</label>
+            <textarea rows="5" class="form-control" name="not" placeholder="Rezervasyon hakkında not (isteğe bağlı)"></textarea>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-footer text-end">
+      <button type="submit" class="btn btn-primary">Rezervasyonu Kaydet</button>
+    </div>
+  </form>
+</div>
